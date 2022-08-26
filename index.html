@@ -126,12 +126,12 @@
           <div class="header__menu menu">
             <nav class="menu__body">
               <ul class="menu__list">
-                <li class="menu__item"><a href="" class="menu__list">About us</a></li>
-                <li class="menu__item"><a href="" class="menu__list">Features</a></li>
-                <li class="menu__item"><a href="" class="menu__list">Specifications</a></li>
-                <li class="menu__item"><a href="" class="menu__list">Data Examples</a></li>
-                <li class="menu__item"><a href="" class="menu__list">Kit</a></li>
-                <li class="menu__item"><a href="" class="menu__list">Recources</a></li>
+                <li class="menu__item"><a href="#about" class="menu__list">About us</a></li>
+                <li class="menu__item"><a href="#features" class="menu__list">Features</a></li>
+                <li class="menu__item"><a href="#speci" class="menu__list">Specifications</a></li>
+                <li class="menu__item"><a href="#data" class="menu__list">Data Examples</a></li>
+                <li class="menu__item"><a href="#kit" class="menu__list">Kit</a></li>
+                <li class="menu__item"><a href="#resources" class="menu__list">Recources</a></li>
               </ul>
             </nav>
           </div>
@@ -158,7 +158,7 @@
             </div>
           </div>
         </section>
-        <section class="features">
+        <section id="features" class="features">
           <div class="features__container">
             <h2 class="features__title title">Features</h2>
             <div class="features__body">
@@ -242,14 +242,26 @@
             </div>
           </div>
         </section>
-        <section class="kit">
+        <section id="kit" class="kit">
           <div class="kit__container">
             <h2 class="kit__title title">Kit</h2>
             <div class="kit__body">
               <div class="kit__left">
-                <div class="kit__img">
-                  <img src="img/kit.jpg" alt="kit" />
-                  <div class="kit__table">Tablet PC</div>
+                <div class="kit__row">
+                  <div class="kit__img">
+                    <img src="img/kit.jpg" alt="kit" />
+                    <div class="kit__table kit__table_1">Tablet PC</div>
+                    <div class="kit__table kit__table_2">Set of chargers</div>
+                    <div class="kit__table kit__table_3">
+                      Radio <br />
+                      detection
+                    </div>
+                    <div class="kit__table kit__table_4">
+                      B-9/12 power <br />
+                      supply unit
+                    </div>
+                    <div class="kit__table kit__table_5">Wi-Fi unit</div>
+                  </div>
                 </div>
               </div>
               <div class="kit__right">
@@ -293,8 +305,211 @@
             </div>
           </div>
         </section>
+        <section id="speci" class="speci">
+          <div class="speci__container">
+            <h2 class="speci__title title">Specifications</h2>
+            <div class="speci__body">
+              <div class="speci__column">
+                <div class="speci__item">
+                  <div class="speci__name">Dimensions</div>
+                  <div class="speci__text">49x20x40 cm</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Center frequency</div>
+                  <div class="speci__text">400 MHz</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Breathing Detection</div>
+                  <div class="speci__text">Reinforced concrete wall (40 cm thickness) - 10 m</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Temperature range</div>
+                  <div class="speci__text">-20°C to +45°C</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Power supply</div>
+                  <div class="speci__text">12V Ni-MH interchangeable</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Cycle time</div>
+                  <div class="speci__text">Selectable at 15, 30, 60, 120 seconds</div>
+                </div>
+              </div>
+              <div class="speci__column">
+                <div class="speci__item">
+                  <div class="speci__name">Weight</div>
+                  <div class="speci__text">10,5 kg</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Movement Detection</div>
+                  <div class="speci__text">Reinforced concrete wall (40 cm thickness) - 16 m</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Running time</div>
+                  <div class="speci__text">12 hours</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Wi-Fi range</div>
+                  <div class="speci__text">Up to 100 meters cm</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Environment</div>
+                  <div class="speci__text">IP 65</div>
+                </div>
+                <div class="speci__item">
+                  <div class="speci__name">Language</div>
+                  <div class="speci__text">English, Russian, Chinese</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="data" class="data">
+          <div class="data__container">
+            <h2 class="data__title title">Data Examples</h2>
+            <div class="data__body">
+              <div class="data__column">
+                <div class="data__name">Detection by motion</div>
+                <div class="data__image">
+                  <img src="img/data/1.jpg" alt="detection" />
+                </div>
+              </div>
+              <div class="data__column">
+                <div class="data__name">Detection by breathing</div>
+                <div class="data__image">
+                  <img src="img/data/2.jpg" alt="detection" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <div class="video__container">
+            <h2 class="video__title title">Video</h2>
+            <div class="video__body">
+              <iframe
+                class="video__video"
+                src="https://www.youtube-nocookie.com/embed/GJBDFksEpuw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+        <section id="resources" class="resources">
+          <div class="resources__container">
+            <h2 class="resources__title title">Resources</h2>
+            <div class="resources__content">
+              <div class="resources__subtitle">User Manual</div>
+              <div class="resources__icon">
+                <img src="img/pdf.svg" alt="" />
+              </div>
+            </div>
+            <div class="resources__btn btn">Download</div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="about__container">
+            <h2 class="about__title title">About Us</h2>
+            <div class="about__body">
+              <div class="about__left">
+                <p class="about__text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                  unknown printer took a galley of type and scrambled it to make a type specimen
+                  book. It has survived not only five centuries, but also the leap into electronic
+                  typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of
+                  the printing and typesetting industry.
+                </p>
+                <p class="about__text">
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                  an unknown printer took a galley of type and scrambled it to make a type specimen
+                  book. It has survived not only five centuries, but also the leap into electronic
+                  typesetting, remaining essentially unchanged.
+                </p>
+              </div>
+              <div class="about__map">
+                <img src="img/map.jpg" alt="map" />
+              </div>
+            </div>
+            <div class="about__form">
+              <form action="" class="form">
+                <div class="form__row">
+                  <div class="form__item">
+                    <div class="form__label">Name</div>
+                    <input placeholder="Denis" class="form__input" type="text" />
+                  </div>
+                  <div class="form__item">
+                    <div class="form__label">Country</div>
+                    <input placeholder="Russian" class="form__input" type="text" />
+                  </div>
+                </div>
+                <div class="form__row">
+                  <div class="form__item">
+                    <div class="form__label">Phone</div>
+                    <input placeholder="+7 707 950 90 26" class="form__input" type="number" />
+                  </div>
+                  <div class="form__item">
+                    <div class="form__label">Email</div>
+                    <input placeholder="deniszak54321@gmail.com" class="form__input" type="text" />
+                  </div>
+                </div>
+                <div class="form__column">
+                  <div class="form__label">Your Message</div>
+                  <textarea
+                    placeholder="Message..."
+                    class="form__textarea"
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <button class="form__btn btn">Send Inquiry</button>
+              </form>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="/" class="header__logo footer__logo">
+            <img src="img/Frame 1.png" alt="" />
+          </a>
+          <nav class="footer__menu">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#data" class="footer__link">Data</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Examples</a></li>
+              <li class="footer__item"><a href="#kit" class="footer__link">Kit</a></li>
+              <li class="footer__item"><a href="#resources" class="footer__link">Recources</a></li>
+            </ul>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#about" class="footer__link">About us</a></li>
+              <li class="footer__item"><a href="#features" class="footer__link">Features</a></li>
+              <li class="footer__item"><a href="#speci" class="footer__link">Specifications</a></li>
+            </ul>
+          </nav>
+          <a href="tel:+74956412641" class="footer__numbers numbers">
+            <div class="numbers__icon">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="#ffffff"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26 19.25C24.125 19.25 22.325 18.95 20.645 18.395C20.12 18.23 19.535 18.35 19.115 18.755L15.815 22.055C11.57 19.895 8.09 16.43 5.93 12.17L9.23 8.855C9.65 8.465 9.77 7.88 9.605 7.355C9.05 5.675 8.75 3.875 8.75 2C8.75 1.175 8.075 0.5 7.25 0.5H2C1.175 0.5 0.5 1.175 0.5 2C0.5 16.085 11.915 27.5 26 27.5C26.825 27.5 27.5 26.825 27.5 26V20.75C27.5 19.925 26.825 19.25 26 19.25ZM24.5 14H27.5C27.5 6.545 21.455 0.5 14 0.5V3.5C19.805 3.5 24.5 8.195 24.5 14ZM18.5 14H21.5C21.5 9.86 18.14 6.5 14 6.5V9.5C16.49 9.5 18.5 11.51 18.5 14Z"
+                  fill="#ffffff"
+                />
+              </svg>
+            </div>
+            <div class="numbers__value numbers__value_white">+7 495 641 26 41</div>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
